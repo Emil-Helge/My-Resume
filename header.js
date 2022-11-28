@@ -11,7 +11,7 @@ function addEventListeners() {
 
 function toggleMenu() {
   const header = document.querySelector('header');
-  header.classList.toggle('h-56');
+  header.classList.toggle('h-80');
 
   const menuIcon = document.querySelector('.burger-menu');
   
