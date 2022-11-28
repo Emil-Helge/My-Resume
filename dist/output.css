@@ -704,6 +704,10 @@ video {
   width: 80%;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .max-w-screen-2xl {
   max-width: 1536px;
 }
@@ -820,8 +824,20 @@ video {
   padding-right: 0.5rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .align-top {
@@ -949,6 +965,10 @@ video {
     display: none;
   }
 
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .md\:flex-1 {
     flex: 1 1 0%;
   }
@@ -992,6 +1012,10 @@ video {
   .md\:bg-red-600 {
     --tw-bg-opacity: 1;
     background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:text-lg {
