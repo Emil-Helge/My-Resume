@@ -8,4 +8,4 @@ During this project I have also gained experience working with **Tailwind CSS** 
 
 My resume is still a work in progress and will be updated with further adjustments as I gain additional experience during my studies.
 
-[]()
+I have created a demo link [HERE.](https://emil-helge.github.io/My-Resume/) Feel free to check it out!
