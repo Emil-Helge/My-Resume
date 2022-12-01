@@ -11,6 +11,7 @@
   <title>Emil Helgesson | Front End Developer</title>
 </head>
 <body class="flex flex-col gap-6 items-center bg-slate-500 font-sans  text-sm text-gray-100 lg:text-lg ">
+  <!-- HEADER SECTION -->
   <header class="transition-all overflow-y-hidden">       
     <nav class="flex flex-row h-12">
       <a class="fixed top-3 left-4" href="#">
@@ -47,9 +48,9 @@
     </ul>
     </nav>
   </header>
-  </nav>
+  <!-- MAIN CONTENT SECTION -->
   <div id="container" class="max-w-screen-xl">
-    <div id="About" class="flex flex-col pl-4">
+    <div id="About" class="flex flex-col pl-5 pr-5 pt-5 gap-3">
       <h1 class="text-4xl font-mono font-extrabold mb-2">About me</h1>
       <img src="../images/CV-name-alt-logo.png" alt="Image with name and logo" class="w-40"></img>
       <h1 class="text-xl font-mono font-extrabold">
@@ -59,19 +60,35 @@
         I am currently studying a two year program at Medieinstitutet in Gothenburg and aspiring to get to work as a Front End Developer in the coming years. I have had a genuine interest for web development for almost a decade now and am very eager to get to put all of my passion into practice and start to learn all the ins and outs that comes with the job. I have a strong drive to learn and experience new things and whenever challenges appear I am not one to shy away from them and that is a trait that I truly believe will be of great use in this business.
       </p>
     </div>
-    <div id="Skills" class="flex w-full justify-end pr-4">
+    <div id="Skills" class="flex flex-col text-right pr-5 gap-5">
       <h1 class="text-4xl font-mono font-extrabold mb-2">Skills</h1>
+      <p class="text-lg">Html & CSS</p>
+      <div class="progress-bar-container flex bg-slate-600 justify-start items-center rounded-xl pl-1 pr-1 h-10 w-60 self-end">
+        <div class="progress-bar h-7 w-0 bg-white rounded-xl animate-[firstBarWidth_3s_normal_forwards]"></div>
+        <span id="max-value-1" class="ml-1 font-extrabold text-sm">85</span>
+      </div>
+      <p class="text-lg">UX & Usability</p>
+      <div class="progress-bar-container flex bg-slate-600 justify-start items-center rounded-xl pl-1 pr-1 h-10 w-60 self-end">
+        <div class="progress-bar h-7 w-0 bg-white rounded-xl animate-[secondBarWidth_3s_normal_forwards]"></div>
+        <span id="max-value-2" class="ml-1 font-extrabold text-sm">78</span>
+      </div>
+      <p class="text-lg">Javascript</p>
+      <div class="progress-bar-container flex bg-slate-600 justify-start items-center rounded-xl pl-1 pr-1 h-10 w-60 self-end">
+        <div class="progress-bar h-7 w-0 bg-white rounded-xl animate-[thirdBarWidth_2s_normal_forwards]"></div>
+        <span id="max-value-3" class="ml-1 font-extrabold text-sm">36</span>
+      </div>
+
     </div>
-  </div>
-  <footer id="Contact" class="fixed bottom-3">
-    <h3 class="text-center max-w-xl scroll-animation-hidden">
-      Check out my projects and get to know me better through social media or contact me directly by email by clicking the icons below and I will get back to you as soon I can</h3>
-    <div class="icon-container w-full flex gap-4 justify-center mt-3 ">
+  <div id="Contact" class="flex flex-col pl-5 pr-5 pt-5 gap-3">
+    <h1 class="text-4xl text-center font-mono font-extrabold mb-2">Contact</h1>
+    <p class="text-center max-w-xl scroll-animation-hidden">
+      Check out my projects and get to know me better through social media or contact me directly by email by clicking the icons below and I will get back to you as soon I can</p>
+    <div class="icon-container w-full flex gap-4 justify-center mt-3">
       <a href="https://www.linkedin.com/in/emil-helgesson94/" id="linkedinIcon" class="fa-brands fa-linkedin fa-2x opacity-60 hover:opacity-100"></a>
       <a href="https://github.com/Emil-Helge" id="githubIcon" class="fa-brands fa-square-github fa-2x opacity-60 hover:opacity-100"></a>
       <a href="mailto:helgesson.emil.94@gmail.com" id="emailIcon" class="fa-solid fa-square-envelope fa-2x opacity-60 hover:opacity-100"></a>
     </div>
-
-  </footer>
+  </div>
+  </div>
 </body>
 </html>

@@ -14,3 +14,30 @@
   filter: blur(0);
   transform: translateX(0);
 }
+
+@keyframes firstBarWidth {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 85%;
+  }
+}
+
+@keyframes secondBarWidth {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 78%;
+  }
+}
+
+@keyframes thirdBarWidth {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 36%;
+  }
+}
