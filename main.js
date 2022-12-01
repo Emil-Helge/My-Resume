@@ -13,7 +13,7 @@ function addEventListeners() {
 
 function toggleMenu() {
   const header = document.querySelector('header');
-  header.classList.toggle('h-60');
+  header.classList.toggle('toggle-menu');
 
   const menuIcon = document.querySelector('.burger-menu'); 
 }

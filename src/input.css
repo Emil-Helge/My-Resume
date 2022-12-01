@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.toggle-menu {
+  height: 15rem;
+}
+
 .scroll-animation-hidden {
   opacity: 0;
   filter: blur(5px);
