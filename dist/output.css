@@ -551,6 +551,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .top-3 {
   top: 0.75rem;
 }
@@ -561,6 +565,42 @@ video {
 
 .right-4 {
   right: 1rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.right-1 {
+  right: 0.25rem;
 }
 
 .mt-12 {
@@ -595,8 +635,24 @@ video {
   height: 1.75rem;
 }
 
-.w-screen {
-  width: 100vw;
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-2\/3 {
+  height: 66.666667%;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .w-40 {
@@ -613,6 +669,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .max-w-screen-xl {
@@ -643,6 +703,22 @@ video {
   flex-direction: column;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
+.place-content-start {
+  place-content: start;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.content-start {
+  align-content: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -665,6 +741,10 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-4 {
@@ -718,6 +798,34 @@ video {
   padding-right: 0.25rem;
 }
 
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-11 {
+  padding-left: 2.75rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -726,12 +834,20 @@ video {
   text-align: right;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-sm {
@@ -759,8 +875,21 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-gray-100 {

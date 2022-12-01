@@ -10,7 +10,7 @@ function addEventListeners() {
   const menuIcon = document.querySelector('.burger-menu');
   menuIcon.addEventListener('click', toggleMenu);
 }
-
+// TODO: close menu when clicking a menuoption
 function toggleMenu() {
   const header = document.querySelector('header');
   header.classList.toggle('toggle-menu');

@@ -14,17 +14,13 @@
   <!-- HEADER SECTION -->
   <header class="transition-all overflow-y-hidden">       
     <nav class="flex flex-row h-12">
-      <a class="fixed top-3 left-4" href="#">
-        <img src="/images/CV-logo.png" alt="Logo">
-      </a>
-      <div class="text-3xl fixed top-3 right-4 md:hidden">
-        <button class="burger-menu flex items-center">
-          <i class="fa-solid fa-bars"></i>
+        <img src="/images/CV-logo.png" alt="Logo" class="h-7 absolute left-4 top-3">
+      <div class="text-3xl md:hidden">
+        <button class="burger-menu flex absolute right-4 top-3">
+          <i class="fa-solid fa-bars" class="h-7"></i>
         </button>
       </div>
-      <ul class="flex flex-col w-screen text-xl font-extrabold items-center mt-12 gap-5 md:mt-0 md:flex-row md:justify-center">
-        <li>
-        </li>
+      <ul class="flex flex-col text-xl font-extrabold items-center mt-12 gap-5 md:mt-0 md:flex-row md:justify-center">
         <li>
             <a href="#About">
               About
@@ -52,7 +48,10 @@
   <div id="container" class="max-w-screen-xl">
     <div id="About" class="flex flex-col pl-5 pr-5 pt-5 gap-3">
       <h1 class="text-4xl font-mono font-extrabold mb-2">About me</h1>
-      <img src="../images/CV-name-alt-logo.png" alt="Image with name and logo" class="w-40"></img>
+      <a href="#Home">
+        <img src="../images/CV-name-alt-logo.png" alt="Image with name and logo" class="w-40"></img>
+      </a>
+      
       <h1 class="text-xl font-mono font-extrabold">
         Front End Developer Student
       </h1>
@@ -62,7 +61,7 @@
     </div>
     <div id="Skills" class="flex flex-col text-right pr-5 gap-5">
       <h1 class="text-4xl font-mono font-extrabold mb-2">Skills</h1>
-      <p class="text-lg">Html & CSS</p>
+      <p class="text-lg">HTML & CSS</p>
       <div class="progress-bar-container flex bg-slate-600 justify-start items-center rounded-xl pl-1 pr-1 h-10 w-60 self-end">
         <div class="progress-bar h-7 w-0 bg-white rounded-xl animate-[firstBarWidth_3s_normal_forwards]"></div>
         <span id="max-value-1" class="ml-1 font-extrabold text-sm">85</span>
@@ -77,9 +76,27 @@
         <div class="progress-bar h-7 w-0 bg-white rounded-xl animate-[thirdBarWidth_2s_normal_forwards]"></div>
         <span id="max-value-3" class="ml-1 font-extrabold text-sm">36</span>
       </div>
-
+      <h4 class="text-2xl font-bold">Additional proficiencies include</h4>
+      <p>
+        Editing images with Gimp<br> 
+        Working with interface design in Figma
+        <!-- TODO: add more skills -->
+      </p>
+  </div>
+  <div id="Education" class="flex flex-col text-left pr-5 gap-5">
+    <h1 class="text-4xl font-mono font-extrabold mb-2">Education</h1>
+    <div class="flex gap-12 content-center">
+      <div>
+        <h5 class="font-serif font-extrabold">GTI</h5>
+        <p>2010-2013</p>
+      </div>
+      <div>
+        <h5 class="font-serif font-extrabold">Medieinstitutet</h5>
+        <p>2022-2024</p>
+      </div>
     </div>
-  <div id="Contact" class="flex flex-col pl-5 pr-5 pt-5 gap-3">
+</div>
+  <div id="Contact" class="flex flex-col pl-5 pr-5 pt-5 gap-3 items-center">
     <h1 class="text-4xl text-center font-mono font-extrabold mb-2">Contact</h1>
     <p class="text-center max-w-xl scroll-animation-hidden">
       Check out my projects and get to know me better through social media or contact me directly by email by clicking the icons below and I will get back to you as soon I can</p>
